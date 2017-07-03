@@ -1,0 +1,56 @@
+# Loading project FSMTBuartGIT
+project open /home/projeto_fpga/Dropbox/Tudo_do_projeto_FPGA/tb_fsm/FSMTBuartGIT
+# Compile of fsm.vhd was successful.
+# Compile of fsmtb.vhd was successful.
+# Compile of uart_parity.vhd was successful.
+# Compile of uart_rx.vhd was successful.
+# Compile of uart_tx.vhd was successful.
+# Compile of uart.vhd was successful.
+# All compile dependencies have been resolved.Compile of fsm.vhd was successful.
+# Compile of fsmtb.vhd was successful with warnings.
+# Compile of uart_parity.vhd was successful.
+# Compile of uart_rx.vhd was successful.
+# Compile of uart_tx.vhd was successful.
+# Compile of uart.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.fsmtb(tb)
+# vsim work.fsmtb(tb) 
+# Start time: 08:56:34 on May 15,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsmtb(tb)
+# Loading work.fsm(arch)
+# Loading ieee.math_real(body)
+# Loading work.uart(full)
+# Loading work.uart_tx(full)
+# Loading work.uart_rx(full)
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 08:56:52 on May 15,2017, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+vsim work.fsmtb(tb)
+# vsim work.fsmtb(tb) 
+# Start time: 08:56:56 on May 15,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsmtb(tb)
+# Loading work.fsm(arch)
+# Loading ieee.math_real(body)
+# Loading work.uart(full)
+# Loading work.uart_tx(full)
+# Loading work.uart_rx(full)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/fsmtb/*
+add wave -position insertpoint  \
+sim:/fsmtb/portFSM/prst
+add wave -position insertpoint sim:/fsmtb/portFSM/c1/*
+add wave -position insertpoint  \
+sim:/fsmtb/portFSM/data
+run
+quit -sim
+# End time: 11:58:57 on May 15,2017, Elapsed time: 3:02:01
+# Errors: 0, Warnings: 1
