@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="Project1_top">
-		<CBX_INST_ENTRY INSTANCE_NAME="|Project1_top|framebuffer1K:fb1K|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cgq1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Project1_top|framebuffer4K:fb4K|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_a6s1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|Project1_top|ov7670_driver:ovdr|OV7670_registers:ovreg|altsyncram:Mux0_rtl_0" CBX_FILE_NAME="altsyncram_8f01.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
