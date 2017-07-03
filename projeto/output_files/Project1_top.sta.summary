@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'xclk'
+Slack : -7.974
+TNS   : -575.286
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -3.531
+TNS   : -1230.028
+
+Type  : Slow Model Setup 'OV7670_PCLK'
+Slack : -2.802
+TNS   : -39.572
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.583
+TNS   : -2.583
+
+Type  : Slow Model Hold 'OV7670_PCLK'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'xclk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.567
+TNS   : -2896.229
+
+Type  : Slow Model Minimum Pulse Width 'xclk'
+Slack : -2.277
+TNS   : -156.636
+
+Type  : Slow Model Minimum Pulse Width 'OV7670_PCLK'
+Slack : -1.777
+TNS   : -40.361
+
+Type  : Fast Model Setup 'xclk'
+Slack : -2.682
+TNS   : -184.775
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.981
+TNS   : -48.602
+
+Type  : Fast Model Setup 'OV7670_PCLK'
+Slack : -0.317
+TNS   : -2.801
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.386
+TNS   : -1.386
+
+Type  : Fast Model Hold 'OV7670_PCLK'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'xclk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.627
+TNS   : -1841.524
+
+Type  : Fast Model Minimum Pulse Width 'xclk'
+Slack : -1.423
+TNS   : -103.768
+
+Type  : Fast Model Minimum Pulse Width 'OV7670_PCLK'
+Slack : -1.222
+TNS   : -27.222
+
+------------------------------------------------------------
