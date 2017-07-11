@@ -26,7 +26,7 @@ end entity fsm;
 
 architecture arch of fsm is
 
-type state is (S0, S1, S2, S3, SD_FB, SBreak, S4, S5, S5DS, S6, S6DS, S7, S8);
+type state is (S0, S1, S2, S3, SD_FB, SBreak, S4, S5, S5DS, S6, S6DS);
 	
 	signal prst 		: 	state;
 	signal nxst 		: 	state;
@@ -268,20 +268,7 @@ begin
 					nxst<=SBreak;
 				end if;					
 
-								
-			when S7 => -------------------------------------  S6: Break condition
-				
-				--nxst<=S7;
-				--nxst<=SBreak;
-					
-				
-				
-		
-			when S8 => -------------------------------------   
-				data_send<='0';
-				wren_fsm<='1';			-- Enable F.B.
-				db := false;
-				nxst<=S8;
+
 							
 		end case;
 		end if;
